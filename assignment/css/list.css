@@ -1,0 +1,61 @@
+:root {
+    --fontcolor: #858585;
+    --maincolor: #15B283;
+
+}
+main{
+    display: flex;
+}
+.section4{
+    
+    width: 69%;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.section4 .thongtin{
+    
+    height: 300px;
+    padding: 5px;
+    margin: 5px 0px;
+}
+.section4 .thongtin .hinh{
+    float: left;
+    width: 40%;
+}
+
+.section4 .thongtin .text{
+    float: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.section5{
+    
+    width: 29%;
+    text-align: left;
+    margin-right: 10px;
+}
+.section5 .news h3{
+    color: var(--maincolor);
+}
+.section5 .news .text{
+    border: 1px dotted var(--fontcolor);
+    border-top: 2px solid var(--maincolor);
+    padding: 10px;
+}
+
+.section5 .news .text a:hover{
+    color: var(--maincolor);
+    font-weight: bold;
+    
+}
+
+
+footer{
+    display: block;
+}
+
+footer .container{
+    clear: both;
+}
